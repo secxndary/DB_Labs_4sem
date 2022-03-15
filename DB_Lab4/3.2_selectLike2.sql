@@ -1,0 +1,3 @@
+select T1.AUDITORIUM[Код аудитории], T2.AUDITORIUM_TYPENAME[Имя типа с компьютером]
+from AUDITORIUM as T1, AUDITORIUM_TYPE as T2
+where T1.AUDITORIUM_TYPE = T2.AUDITORIUM_TYPE and T2.AUDITORIUM_TYPENAME like '%компьютер%'
