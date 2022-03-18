@@ -1,0 +1,2 @@
+select * from PULPIT inner join TEACHER
+on PULPIT.PULPIT = TEACHER.PULPIT

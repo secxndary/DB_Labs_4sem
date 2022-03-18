@@ -1,0 +1,3 @@
+select * from TEACHER full outer join PULPIT 
+on PULPIT.PULPIT = TEACHER.PULPIT
+order by TEACHER.PULPIT, PULPIT.PULPIT

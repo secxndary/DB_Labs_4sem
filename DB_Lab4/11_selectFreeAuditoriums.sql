@@ -1,0 +1,4 @@
+select AUDITORIUM.AUDITORIUM[Свободные на 2 пару аудитории]
+from TIMETABLE right outer join AUDITORIUM
+on TIMETABLE.AUDITORIUM != AUDITORIUM.AUDITORIUM
+where TIMETABLE.LESSON = 2;
