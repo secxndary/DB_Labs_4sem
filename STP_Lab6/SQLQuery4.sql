@@ -1,0 +1,1 @@
+delete from BOOKS where YEAR(Year) > '2000'

@@ -11,7 +11,7 @@ from PROGRESS group by case
 			when NOTE between 6 and 7 then '6-7'
 			when NOTE between 8 and 9 then '8-9'
 			else '10'
-			end) as T
+			end) as a
 
 order by case [ќценки]
 			when '4-5' then 3

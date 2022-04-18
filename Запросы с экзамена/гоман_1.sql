@@ -1,6 +1,6 @@
 -- Ќайти среднюю цену заказа дл€ каждого офиса
 
-select  offi.OFFICE [ќфис], round(avg(cast(o.AMOUNT as float(4))), 2) —редн€€_цена
+select offi.OFFICE [ќфис], round(avg(cast(o.AMOUNT as float(4))), 2) —редн€€_цена
 from ORDERS o
 inner join SALESREPS s
 on s.EMPL_NUM = o.REP

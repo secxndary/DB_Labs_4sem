@@ -1,8 +1,13 @@
 -- ќфисы в которых не было заказов с 01.01.2007 до 01.01.2008
 
-select OFFICES.OFFICE [ќфис]	--ORDERS.ORDER_DATE [ƒата заказа]
+select OFFICE [ќфис]
 from OFFICES 
-inner join ORDERS 
-on OFFICES.MGR = ORDERS.REP
-where ORDERS.ORDER_DATE not between '2007-01-01' and '2008-01-01'
-group by OFFICES.OFFICE
+except
+select offi.OFFICE
+from OFFICES offi
+inner join SALESREPS s
+on s.REP_OFFICE = offi.OFFICE
+inner join ORDERS o
+on o.REP = s.EMPL_NUM
+where o.ORDER_DATE between '2007-01-01' and '2008-01-01'
+group by offi.OFFICE	
