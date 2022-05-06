@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DB_Lab12">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-8HNL9IM:DESKTOP-8HNL9IM\secxndary">
+          <Created>2022-05-05T13:25:12.6932387+03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-8HNL9IM</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB>Lab4</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1_createProcPSubject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1_createProcPSubject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_alterProc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2_alterProc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_localTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3_localTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_tryCatchAudInsertProc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4_tryCatchAudInsertProc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5_tryCatchCursor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5_tryCatchCursor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6_tranInsertAuditoriumType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6_tranInsertAuditoriumType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8_sameAs8Lab10WithParams.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-8HNL9IM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-8HNL9IM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8_sameAs8Lab10WithParams.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
